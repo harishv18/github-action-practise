@@ -4,5 +4,7 @@ jobs:
   Dummy-job:
     runs-on: ubuntu-latest
     steps:
+      - name: list all the files
+        run: ls
       - name: Print My Name
         run: echo "My name is Harish"
