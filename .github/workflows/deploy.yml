@@ -4,5 +4,7 @@ jobs:
   Dummy-job:
     runs-on: ubuntu-latest
     steps:
+      - name: Create a folder
+        run: mkdir Harishfile
       - name: Print My Name
         run: echo "Hello Harish">>hello.txt
