@@ -1,0 +1,8 @@
+name: GitHub Practise
+on: push
+jobs:
+  Dummy-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print My Name
+        run: echo "My name is Harish"
