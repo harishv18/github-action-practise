@@ -5,10 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print My Name
-        run: echo "My name is Harish"
-  Dummy-job1:
-    runs-on: ubuntu-latest
-    needs: Dummy-job
-    steps:
-      - name: this is run after Dummy-job
-        run: echo "Hello job1"
+        run: echo "Hello Harish">>hello.txt
