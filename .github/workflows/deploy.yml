@@ -1,5 +1,5 @@
 name: GitHub Practise
-on: push
+on: workflow_dispatch
 jobs:
   Dummy-job:
     runs-on: ubuntu-latest
